@@ -1,0 +1,14 @@
+---
+apiVersion: source.toolkit.fluxcd.io/v1
+kind: GitRepository
+metadata:
+  annotations:
+    reconcile.fluxcd.io/requestedAt: "2025-01-28T03:47:43.596571263Z"
+  name: instavote
+  namespace: flux-system
+spec:
+  interval: 2m0s
+  ref:
+    branch: main
+  timeout: 1m0s
+  url: https://github.com/myroslav-m/lfs269-instavote.git
