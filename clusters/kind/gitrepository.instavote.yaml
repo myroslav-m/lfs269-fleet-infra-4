@@ -7,7 +7,7 @@ metadata:
   name: instavote
   namespace: flux-system
 spec:
-  interval: 2m0s
+  interval: 30s
   ref:
     branch: main
   timeout: 1m0s
